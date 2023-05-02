@@ -143,10 +143,10 @@ export const LoginPage: FC = () => {
             <HeadProvider>
                 <Meta charSet="UTF-8" />
                 <Meta name="author" content="Linz Web Development (Jose Linares)" />
-                <Meta name="description" content="Pagina de inicio de sesion de Consolitex" />
-                <Meta name="copyright" content="Consolitex®" />
+                <Meta name="description" content="Pagina de inicio de sesion de CatalogoApp" />
+                <Meta name="copyright" content="CatalogoApp" />
                 {/* Link canónico */}
-                <Link rel="canonical" href={'https://consolitex.org'} />
+                <Link rel="canonical" href={'https://catalogoapp.org'} />
                 {/* Geolocalizacion */}
                 <Meta name="geo.region" content="VE" />
                 <Meta name="robots" content="follow, index" />
@@ -180,16 +180,16 @@ export const LoginPage: FC = () => {
 
                     <Box sx={styles.redesContainer}>
                         <Typography variant="subtitle2" color="text.secondary" sx={{ width: "100%", textAlign: "center", mt: 3 }}>Síguenos en nuestras redes</Typography>
-                        <IconButton component="a" href="https://wa.me/5804144029820" target="_blank" sx={styles.whatsapp}>
+                        <IconButton component="a" href="https://wa.me/584122682162" target="_blank" sx={styles.whatsapp}>
                             <WhatsApp style={{ color: "white" }} />
                         </IconButton>
-                        <IconButton component="a" href="https://instagram.com/consolitex" target="_blank" sx={styles.instagram}>
+                        <IconButton component="a" href="https://instagram.com/catalogoapp" target="_blank" sx={styles.instagram}>
                             <Instagram style={{ color: "white" }} />
                         </IconButton>
-                        <IconButton component="a" href="https://twitter.com/consolitex" target="_blank" sx={styles.twitter}>
+                        <IconButton component="a" href="https://twitter.com/catalogoapp" target="_blank" sx={styles.twitter}>
                             <Twitter style={{ color: "white" }} />
                         </IconButton>
-                        <IconButton component="a" href="https://facebook.com/consolitex" target="_blank" sx={styles.facebook}>
+                        <IconButton component="a" href="https://facebook.com/catalogoapp" target="_blank" sx={styles.facebook}>
                             <Facebook style={{ color: "white" }} />
                         </IconButton>
                     </Box>

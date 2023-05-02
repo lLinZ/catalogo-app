@@ -207,7 +207,7 @@ export const RegisterPage: FC = () => {
                     </Formik>
                     <Box sx={styles.linkContainer}>
                         <Typography variant="subtitle1" sx={{ p: 1 }}>¿Ya tienes cuenta? &nbsp;</Typography>
-                        <CustomButton sx={{ ...styles.link }} onClick={() => navigate("/login")}>Inicia sesión</CustomButton>
+                        <CustomButton variant="text" sx={{ ...styles.link }} onClick={() => navigate("/login")}>Inicia sesión</CustomButton>
                     </Box>
 
                     <Box sx={styles.redesContainer}>
