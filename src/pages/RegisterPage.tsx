@@ -209,7 +209,6 @@ export const RegisterPage: FC = () => {
                         <Typography variant="subtitle1" sx={{ p: 1 }}>¿Ya tienes cuenta? &nbsp;</Typography>
                         <CustomButton variant="text" sx={{ ...styles.link }} onClick={() => navigate("/login")}>Inicia sesión</CustomButton>
                     </Box>
-
                     <Box sx={styles.redesContainer}>
                         <Typography variant="subtitle2" color="text.secondary" sx={{ width: "100%", textAlign: "center", mt: 3 }}>Síguenos en nuestras redes</Typography>
                         <IconButton component="a" href="https://wa.me/584122682162" target="_blank" sx={styles.whatsapp}>
